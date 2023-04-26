@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<head>
+  <title>A Star Wars Site - About</title>
+    <link rel="stylesheet" href="./css/about.css">
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <!--A function to ensure your name is on the form-->
+    <!--x is the variable-->
+    <script>
+      function validateForm() {
+        let x = document.forms["myForm"]["name"].value;
+        if (x == "") {
+          alert("Name must be filled out");
+          return false;
+        }
+      }
+      </script>
+</head>
+<body>
+    <!--This is the header, having the title of the page and links-->
+    <header>
+        <div class="container">
+            <div id="branding">
+              <h1><span class="highlight">A Star Wars Site</span></h1>
+            </div>
+            <nav>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="current"><a href="about.html">About</a></li>
+                <li><a href="eras.html">Eras</a></li>
+                <li><a href="movies.html">Movies</a></li>
+                <li><a href="shows.html">TV Series</a></li>
+              </ul>
+            </nav>
+          </div>
+    </header>
+
+    <section class="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title" id="demo"></h1>
+            <ul id="services">
+              <li>
+                <h2>What is Star Wars?</h2>
+                <p>No, it is not a war of stars. The Star Wars franchise is set in a fictional galaxy far, far away and follows the adventures of various characters, including Jedi Knights, Sith Lords, smugglers, and droids, as they struggle for control of the galaxy and fight against the forces of evil.</p>
+                <h2>So what exactly is the content in Star Wars?</h2>
+                <p>There is a lot of content in the Star Wars universe. Theres tv shows, films, comics, video games, and more. The movies started off with the Original Trilogy (Episodes IV-VI) and then they began to branch off from there. Creating more movies, tv shows, and readings about what was in between. Still to this day, the story of Star Wars continues and I am not sure if we ever see an end. </p>
+                <h2>An Important Note</h2>
+                <p>Not every piece of media you see about Star Wars is considered canon. Star Wars Legends, formerly known as the Expanded Universe (EU), refers to the vast collection of stories, characters, and settings that were created outside of the main Star Wars films and television shows. In 2014, with the acquisition of Lucasfilm by Disney, the Star Wars Legends continuity was rebranded as non-canon, meaning that these stories are no longer considered part of the official Star Wars continuity. However, many fans still enjoy the Legends stories and consider them an important part of the Star Wars universe. </p>
+                <h2>Star Wars Media:</h2>
+                <h3>Movies:</h3>
+                <p id="movies" style="color: #ffffff;"></p>
+                <h3>TV Shows:</h3>
+                <p id="shows" style="color: #ffffff;"></p>
+                <h3>Books & Comics: </h3>
+                <p id="books" style="color: #ffffff;"></p>
+                <h3>Video Games:</h3>
+                <p id="games" style="color: #ffffff;"></p>
+                <h2>Is it too late to start?</h2>
+                <p>Absolutely not! If you really want to get an overall view, then just watch the movies. They will provide you enough information to get you caught up. Going more in depth is watching the shows, although this will take you a bit longer. At this point is where I would be considered all caught up. For the books, comics, and video games. They do add more to the story, but are not neccessary to get a good overview of the story. If you want to go deep, then by all means do so. </p>
+              </li>
+            </ul>
+            <!--If-then-else used to display a different message depending on the time-->
+            <script>
+              const time = new Date().getHours();
+              let greeting;
+              if (time < 10) {
+                greeting = "It's a Trap!";
+              } else if (time < 20) {
+                greeting = "May the Force Be With You.";
+              } else {
+                greeting = "That's No Moon.";
+              }
+              document.getElementById("demo").innerHTML = greeting;
+            </script>
+            <!--Here is a for-loop and an array to list the different content in the franchise-->
+            <script>
+              /* An array containing the content */
+              const content1 = ["The Skywalker Saga (Episodes I-IX)", "Rogue One", "Solo"];
+              
+              let text1 = "";
+              for (let i = 0; i < content1.length; i++) {
+                text1 += content1[i] + "<br>";
+              }
+              
+              document.getElementById("movies").innerHTML = text1;
+            </script>
+            <!--for-loop for tv shows-->
+            <script>
+              const contnet2 = ["Star Wars: The Clone Wars", "Star Wars: Rebels", "Star Wars: Resistance", "Visions", "The Mandalorian", "The Book of Boba Fett", "Obi-Wan Kenobi", "Tales of the Jedi", "Bad Batch", "Andor"];
+              
+              let text2 = "";
+              for (let i = 0; i < contnet2.length; i++) {
+                text2 += contnet2[i] + "<br>";
+              }
+              
+              document.getElementById("shows").innerHTML = text2;
+            </script>
+            <!--for-loop for books & comics-->
+            <script>
+              const contnet3 = ["Master & Apprentice by Claudia Gray", "Queen's Shadow by E.K. Johnston", "Light of the Jedi by Charles Soule", "Brotherhood by Mike Chen", "Leia: Princess of Alderaan by Claudia Gray", "Kanan: The Last Padawan (2015)", "War of the Bounty Hunters (2021)", "Vader: Dark Visions", "Darth Maul (2017)", "Galaxy's Edge", "Jedi Fallen Order: Dark Temple (2019)"];
+            
+              let text3 = "";
+              for (let i = 0; i < contnet3.length; i++) {
+                text3 += contnet3[i] + "<br>";
+              }
+              
+              document.getElementById("books").innerHTML = text3;
+            </script>
+            <!--This is a while-loop for the video games-->
+            <script>
+              const content4 = ["Star Wars Jedi: Fallen Order", "Star Wars: Jedi Survivor", "Star Wars Battlefront II", "Vader Immortal", "Star Wars: Tales from The Galaxy's Edge", "Star Wars: Squadrons", "The Force Unleashed (Non-Canon)", "Knights of the Old Republic (Non-Canon)", "Republic Commando (Non-Canon)", "Jedi Knight (Non-Canon)"];
+              
+              let i = 0;
+              let text4 = "";
+              while (content4[i]) {
+                text4 += content4[i] + "<br>";
+                i++;
+              }
+              
+              document.getElementById("games").innerHTML = text4;
+              </script>
+        </article>
+        <aside id="sidebar">
+          <div class="dark">
+            <h3>Tell Us Your Thoughts on Star Wars!</h3>
+            <form name="myForm" onsubmit="validateForm()" method="post" id="frm1" style="color: white;">
+              Your Name: <input type="text" name="name"><br>
+              Your Thoughts: <input type="text" name="thoughts"><br><br>
+              <input type="button" onclick="myFunction()" value="Reset">
+              <input type="submit" value="Send">
+            </form>
+            
+            <!--This is a function that resets the info filled out in the form if a button is clicked-->
+            <script>
+            function myFunction() {
+              document.getElementById("frm1").reset();
+            }
+            </script>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Copyright Section-->
+    <footer>
+        <p>A Star Wars Site, Copyright &copy; 2023</p>
+    </footer>
+</body>

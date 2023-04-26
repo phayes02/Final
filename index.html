@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+    <title>A Star Wars Site</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <!--This is the header, having the title of the page and links-->
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1>A Star Wars Site</h1>
+      </div>
+      <nav>
+        <ul>
+          <li class="current"><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="eras.html">Eras</a></li>
+          <li><a href="movies.html">Movies</a></li>
+          <li><a href="shows.html">TV Series</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!--Front picutre-->
+  <section id="showcase">
+    <div class="container">
+    </div>
+  </section>
+
+  <!--This is the purpose of the webpage-->
+  <section id="info">
+    <div class="container">
+      <h1>This site is here to talk about George Lucas' Star Wars Franchise. Our objective is to provide you information about the films and tv shows.</h1>
+    </div>
+  </section>
+
+  <!--This is a section that shows the first movies that start off each trilogy-->
+  <section id="boxes">
+    <div class="container">
+      <div class="box1">
+        <img id="movie1" src="/images/ep1.jpeg">
+        <h3>Episode I: The Phantom Menance</h3>
+        <p>May 19, 1999</p>
+      </div>
+    
+      <div class="box2">
+        <img id="movie2" src="/images/ep4.jpeg">
+        <h3>Episode IV: A New Hope</h3>
+        <p>July 21, 1978</p>
+      </div>
+    
+      <div class="box3">
+        <img id="movie3" src="/images/ep7.jpeg">
+        <h3>Episode VII: The Force Awakens</h3>
+        <p>December 18, 2015</p>
+      </div>
+    </div>
+  </section>
+    
+  <footer>
+    <!-- This is a switch statement. Source: W3 Schools-->
+    <p id="date"></p>
+      <script>
+        let day;
+        switch (new Date().getDay()) {
+          case 0:
+            day = "Sunday";
+            break;
+          case 1:
+            day = "Monday";
+            break;
+          case 2:
+            day = "Tuesday";
+            break;
+          case 3:
+            day = "Wednesday";
+            break;
+          case 4:
+            day = "Thursday";
+            break;
+          case 5:
+            day = "Friday";
+            break;
+          case 6:
+            day = "Saturday";
+        }
+        document.getElementById("date").innerHTML = "Today is " + day;
+      </script>
+      <p>A Star Wars Site, Copyright &copy; 2023 - <!-- Need to get validation-->
+    </footer>
+</body>

@@ -1,0 +1,686 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }  
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+#eraInfo {
+    font-size: 25px;
+}
+
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+
+header{
+    background: #000000;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #ffffff 3px solid;
+  }
+  
+  header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  
+  header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+  
+  header #branding{
+    float: left;
+  }
+  
+  header #branding h1{
+    margin: 0;
+  }
+  
+  header nav{
+    float: right;
+    margin-top: 10px;
+  }
+  
+  header .highlight, header .current a{
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+  }
+
+#showcase {
+    min-height: 700px;
+    background:url('../images/eras.jpg') no-repeat center;
+    background-size: contain;
+    background-color: black;
+  }
+  
+  #showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+  }
+  
+  #showcase p{
+    font-size: 20px;
+  }
+
+  #info{
+    padding: 30px;
+    color: #ffffff;
+    background: #000000;
+  }
+  
+  #info h1{
+    text-align: center;
+  }
+
+/* This is tab for the Dawn of the Jedi */
+#dawn{
+  padding: 50px;
+  text-align: center;
+  margin: auto;
+  background:url(../images/text_background.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 20px;
+}
+
+#dawnheader {
+    font-size: 35px;
+    color: #FFE81F;
+}
+
+#dawn_pic{
+    width: 50%;
+  }
+
+#DawnDscr {
+    font-size: 25px;
+    color: #FFE81F;
+}
+
+/* This is tab for the Old Republic */
+#old {
+  padding: 50px;
+  text-align: center;
+  margin: auto;
+  background:url(../images/text_background.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 20px;
+}
+
+#oldheader {
+    font-size: 35px;
+    color: #FFE81F;
+}
+
+#OldDscr {
+    font-size: 25px;
+    color: #FFE81F; 
+}
+
+#old_pic {
+    width: 50%;
+}
+
+/* This is tab for the High Republic */
+#high {
+  padding: 50px;
+  text-align: center;
+  margin: auto;
+  background:url(../images/text_background.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 20px;
+}
+
+#highheader {
+    font-size: 35px;
+    color: #FFE81F;
+}
+
+#HighDscr {
+    font-size: 25px;
+    color: #FFE81F;
+}
+
+#high_pic {
+    width: 50%;
+}
+
+/* This is tab for the Fall of the Jedi */
+#fall {
+  padding: 50px;
+  text-align: center;
+  margin: auto;
+  background:url(../images/text_background.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 20px;
+}
+
+#fallheader {
+    font-size: 35px;
+    color: #FFE81F;
+}
+
+#FallDscr {
+    font-size: 25px;
+    color: #FFE81F; 
+}
+
+#fall_pic {
+    width: 50%;
+}
+
+/* This is tab for the Reign of the Empire */
+#empire {
+  padding: 50px;
+  text-align: center;
+  margin: auto;
+  background:url(../images/text_background.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 20px;
+}
+
+#empireheader {
+    font-size: 35px;
+    color: white;
+}
+
+#EmpireDscr {
+    font-size: 25px;
+    color: white; 
+}
+
+#empire_pic {
+    width: 50%;
+}
+
+/* This is tab for the Age of the Rebellion */
+#rebellion {
+  padding: 50px;
+  text-align: center;
+  margin: auto;
+  background:url(../images/text_background.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 20px;
+}
+
+#rebellionheader {
+    font-size: 35px;
+    color: white;
+}
+
+#RebellionDscr {
+    font-size: 25px;
+    color: white; 
+}
+
+#rebellion_pic {
+    width: 50%;
+}
+
+/* This is tab for the New Republic */
+#new_republic {
+  padding: 50px;
+  text-align: center;
+  margin: auto;
+  background:url(../images/text_background.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 20px;
+}
+
+#new_republicheader {
+    font-size: 35px;
+    color: white;
+}
+
+#New_RepublicDscr {
+    font-size: 25px;
+    color: white; 
+}
+
+#new_republic_pic {
+    width: 50%;
+}
+
+/* This is tab for the Rise of the First Order */
+#order {
+  padding: 50px;
+  text-align: center;
+  margin: auto;
+  background:url(../images/text_background.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 20px;
+}
+
+#orderheader {
+    font-size: 35px;
+    color: white;
+}
+
+#OrderDscr {
+    font-size: 25px;
+    color: white; 
+}
+
+#order_pic {
+    width: 50%;
+}
+
+/* This is tab for the New Jedi Order*/
+#new_jedi {
+  padding: 50px;
+  text-align: center;
+  margin: auto;
+  background:url(../images/text_background.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 20px;
+}
+
+#new_jediheader {
+    font-size: 35px;
+    color: white;
+}
+
+#New_JediDscr {
+    font-size: 25px;
+    color: white; 
+}
+
+#new_jedi_pic {
+    width: 50%;
+}
+
+/* Buttons for the information */
+.BUTTON_1 {
+  display: inline;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 100px;
+  background:url(../images/dawn.jpg) no-repeat center ; 
+  background-size: cover;
+  border: solid #353637 1px;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.BUTTON_1:hover {
+  background: gray;
+  border: solid #353637 1px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0 1px 12px 0 #353637;
+}
+
+.BUTTON_1:focus {
+  background-color: gray;
+}
+
+
+.BUTTON_2 {
+  display: inline;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 100px;
+  background:url(../images/old.jpg) no-repeat center ; 
+  background-size: cover;
+  border: solid #353637 1px;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.BUTTON_2:hover {
+  background: gray;
+  border: solid #353637 1px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0 1px 12px 0 #353637;
+}
+
+.BUTTON_2:focus {
+  background-color: gray;
+}
+
+.BUTTON_3 {
+  display: inline;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 100px;
+  background:url(../images/high.jpg) no-repeat center ; 
+  background-size: cover;
+  border: solid #353637 1px;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.BUTTON_3:hover {
+  background: gray;
+  border: solid #353637 1px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0 1px 12px 0 #353637;
+}
+
+.BUTTON_3:focus {
+  background-color: gray;
+}
+
+.BUTTON_4 {
+  display: inline;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 100px;
+  background:url(../images/republic.jpg) no-repeat center ; 
+  background-size: cover;
+  border: solid #353637 1px;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.BUTTON_4:hover{
+    background: gray;
+  border: solid #353637 1px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0 1px 12px 0 #353637;
+}
+
+.BUTTON_4:focus{
+    background-color: gray;
+}
+
+.BUTTON_5 {
+  display: inline;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 100px;
+  background:url(../images/empire.jpg) no-repeat center ; 
+  background-size: cover;
+  border: solid #353637 1px;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.BUTTON_5:hover{
+    background: gray;
+  border: solid #353637 1px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0 1px 12px 0 #353637;
+}
+
+.BUTTON_5:focus{
+    background-color: gray;
+}
+
+.BUTTON_6 {
+  display: inline;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 100px;
+  background:url(../images/rebel.jpg) no-repeat center ; 
+  background-size: cover;
+  border: solid #353637 1px;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.BUTTON_6:hover{
+    background: gray;
+  border: solid #353637 1px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0 1px 12px 0 #353637;
+}
+
+.BUTTON_6:focus{
+    background-color: gray;
+}
+
+.BUTTON_7 {
+  display: inline;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 100px;
+  background:url(../images/new\ repbulic.jpg) no-repeat center ; 
+  background-size: cover;
+  border: solid #353637 1px;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.BUTTON_7:hover{
+  background: gray;
+  border: solid #353637 1px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0 1px 12px 0 #353637;
+}
+
+.BUTTON_7:focus{
+    background-color: gray;
+}
+
+.BUTTON_8 {
+  display: inline;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 100px;
+  background:url(../images/order.jpg) no-repeat center ; 
+  background-size: cover;
+  border: solid #353637 1px;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.BUTTON_8:hover{
+    background: gray;
+  border: solid #353637 1px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0 1px 12px 0 #353637;
+}
+
+.BUTTON_8:focus{
+    background-color: gray;
+}
+
+.BUTTON_9 {
+  display: inline;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 100px;
+  background:url(../images/new_jedi.jpg) no-repeat center ; 
+  background-size: cover;
+  border: solid #353637 1px;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.BUTTON_9:hover{
+    background: gray;
+  border: solid #353637 1px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0 1px 12px 0 #353637;
+}
+
+.BUTTON_9:focus{
+    background-color: gray;
+}
+
+.btn-group {
+
+padding-top: 10px;
+padding-left: 325px;
+padding-bottom: 20px;
+background-color:#000000;
+border-bottom: #FFE81F 3px solid;
+
+}
+
+
+footer{
+    padding: 20px;
+    color: #ffffff;
+    background-color:#000000;
+    text-align: center;
+  }
+
+  @media(max-width: 768px){
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar {
+      float: none;
+      text-align: center;
+      width: 100%;
+    }
+  
+    header{
+      padding-bottom: 20px;
+    }
+  
+    #showcase h1{
+      margin-top: 40px;
+    }
+  
+    #newsletter button {
+      display: block;
+      width: 100%;
+    }
+  
+    #newsletter form input[type="email"],
+    .contact input,
+    .contact textarea,
+    .contact label{
+      width: 100%;
+      margin-bottom: 5px;
+    }
+  }

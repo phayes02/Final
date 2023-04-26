@@ -1,0 +1,187 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }  
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+
+#title {
+  padding-left: 20px;
+}
+
+
+header{
+    background: #000000;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #d4e612 3px solid;
+  }
+  
+  header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  
+  header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+  
+  header #branding{
+    float: left;
+  }
+  
+  header #branding h1{
+    margin: 0;
+  }
+  
+  header nav{
+    float: right;
+    margin-top: 10px;
+  }
+  
+  header .highlight, header .current a{
+    color: #d4e612;
+    font-weight: bold;
+  }
+  
+  header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+  }
+
+#showcase {
+    min-height: 450px;
+    padding-top: 350px;
+    background:url('../images/front.jpg') no-repeat center;
+    background-size: cover;
+    text-align: center;
+    color: #000000;
+  }
+  
+  #showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+  }
+  
+  #showcase p{
+    font-size: 20px;
+  }
+
+  #info{
+    padding: 15px;
+    color: #d4e612;
+    background: #000000;
+    border-top: #d4e612 3px solid;
+  }
+  
+  #info h1{
+    text-align: center;
+  }
+
+  #boxes{
+    margin-top: 20px;
+}
+
+#boxes .box1{
+    float: left;
+    text-align:center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box2{
+    float: left;
+    text-align:center;
+    width: 30%;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#boxes .box3{
+    float: left;
+    text-align:center;
+    width: 30%;
+    padding: 10px;
+}
+
+
+#movie1{
+    width: 90%;
+}
+
+#movie2{
+    width: 90%;
+}
+
+#movie3{
+    width: 90%;
+}
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #d4e612;
+    background-color:#000000;
+    text-align: center;
+  }
+
+  @media(max-width: 768px){
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar {
+      float: none;
+      text-align: center;
+      width: 100%;
+    }
+  
+    header{
+      padding-bottom: 20px;
+    }
+  
+    #showcase h1{
+      margin-top: 40px;
+    }
+  
+    #newsletter button {
+      display: block;
+      width: 100%;
+    }
+  
+    #newsletter form input[type="email"],
+    .contact input,
+    .contact textarea,
+    .contact label{
+      width: 100%;
+      margin-bottom: 5px;
+    }
+  }
+
+  .main {
+    background:url(../images/text_background.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 20px;
+  }
