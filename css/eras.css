@@ -342,7 +342,7 @@ header{
   font-family: Arial;
   font-size: 15px;
   font-weight: 100;
-  padding: 100px;
+  padding: 80px;
   background:url(../images/dawn.jpg) no-repeat center ; 
   background-size: cover;
   border: solid #353637 1px;
@@ -376,7 +376,7 @@ header{
   font-family: Arial;
   font-size: 15px;
   font-weight: 100;
-  padding: 100px;
+  padding: 80px;
   background:url(../images/old.jpg) no-repeat center ; 
   background-size: cover;
   border: solid #353637 1px;
@@ -409,7 +409,7 @@ header{
   font-family: Arial;
   font-size: 15px;
   font-weight: 100;
-  padding: 100px;
+  padding: 80px;
   background:url(../images/high.jpg) no-repeat center ; 
   background-size: cover;
   border: solid #353637 1px;
@@ -442,7 +442,7 @@ header{
   font-family: Arial;
   font-size: 15px;
   font-weight: 100;
-  padding: 100px;
+  padding: 80px;
   background:url(../images/republic.jpg) no-repeat center ; 
   background-size: cover;
   border: solid #353637 1px;
@@ -475,7 +475,7 @@ header{
   font-family: Arial;
   font-size: 15px;
   font-weight: 100;
-  padding: 100px;
+  padding: 80px;
   background:url(../images/empire.jpg) no-repeat center ; 
   background-size: cover;
   border: solid #353637 1px;
@@ -508,7 +508,7 @@ header{
   font-family: Arial;
   font-size: 15px;
   font-weight: 100;
-  padding: 100px;
+  padding: 80px;
   background:url(../images/rebel.jpg) no-repeat center ; 
   background-size: cover;
   border: solid #353637 1px;
@@ -541,7 +541,7 @@ header{
   font-family: Arial;
   font-size: 15px;
   font-weight: 100;
-  padding: 100px;
+  padding: 80px;
   background:url(../images/new\ repbulic.jpg) no-repeat center ; 
   background-size: cover;
   border: solid #353637 1px;
@@ -574,7 +574,7 @@ header{
   font-family: Arial;
   font-size: 15px;
   font-weight: 100;
-  padding: 100px;
+  padding: 80px;
   background:url(../images/order.jpg) no-repeat center ; 
   background-size: cover;
   border: solid #353637 1px;
@@ -607,7 +607,7 @@ header{
   font-family: Arial;
   font-size: 15px;
   font-weight: 100;
-  padding: 100px;
+  padding: 80px;
   background:url(../images/new_jedi.jpg) no-repeat center ; 
   background-size: cover;
   border: solid #353637 1px;
@@ -634,7 +634,7 @@ header{
 .btn-group {
 
 padding-top: 10px;
-padding-left: 325px;
+padding-left: 100px;
 padding-bottom: 20px;
 background-color:#000000;
 border-bottom: #FFE81F 3px solid;
