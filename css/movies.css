@@ -204,8 +204,3 @@ footer{
   text-align: center;
 }
 
-@media only screen and (max-width: 620px) {
-  body {
-    width: 100%;
-  }
-}
