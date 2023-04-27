@@ -85,7 +85,7 @@ header{
     background: #000000;
   }
   
-  #info h1{
+  #info h1, h3{
     text-align: center;
   }
 
@@ -104,7 +104,7 @@ header{
 
 #dawnheader {
     font-size: 35px;
-    color: #FFE81F;
+    color: #ffffff;
 }
 
 #dawn_pic{
@@ -113,7 +113,8 @@ header{
 
 #DawnDscr {
     font-size: 25px;
-    color: #FFE81F;
+    color: #ffffff;
+    background-color: #000000;
 }
 
 /* This is tab for the Old Republic */
@@ -136,7 +137,8 @@ header{
 
 #OldDscr {
     font-size: 25px;
-    color: #FFE81F; 
+    color: #ffffff;
+    background-color: #000000;
 }
 
 #old_pic {
@@ -163,7 +165,8 @@ header{
 
 #HighDscr {
     font-size: 25px;
-    color: #FFE81F;
+    color: #ffffff;
+    background-color: #000000;
 }
 
 #high_pic {
@@ -190,7 +193,8 @@ header{
 
 #FallDscr {
     font-size: 25px;
-    color: #FFE81F; 
+    color: #ffffff;
+    background-color: #000000;
 }
 
 #fall_pic {
@@ -217,7 +221,8 @@ header{
 
 #EmpireDscr {
     font-size: 25px;
-    color: white; 
+    color: #ffffff;
+    background-color: #000000;
 }
 
 #empire_pic {
@@ -244,7 +249,8 @@ header{
 
 #RebellionDscr {
     font-size: 25px;
-    color: white; 
+    color: #ffffff;
+    background-color: #000000;
 }
 
 #rebellion_pic {
@@ -271,7 +277,8 @@ header{
 
 #New_RepublicDscr {
     font-size: 25px;
-    color: white; 
+    color: #ffffff;
+    background-color: #000000;
 }
 
 #new_republic_pic {
@@ -298,7 +305,8 @@ header{
 
 #OrderDscr {
     font-size: 25px;
-    color: white; 
+    color: #ffffff;
+    background-color: #000000; 
 }
 
 #order_pic {
@@ -325,7 +333,8 @@ header{
 
 #New_JediDscr {
     font-size: 25px;
-    color: white; 
+    color: #ffffff;
+    background-color: #000000; 
 }
 
 #new_jedi_pic {

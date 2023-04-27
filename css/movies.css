@@ -43,6 +43,7 @@ ul{
 
 a {
   color: white;
+  text-align: center;
 }
 
 
@@ -129,8 +130,6 @@ header a:hover{
   margin-right: 240px;
 }
 
-
-
 #trilogies {
   text-align: center;
   font-size: 30px;
@@ -145,6 +144,8 @@ header a:hover{
   text-align:center;
   width: 30%;
   padding: 10px;
+  max-width: 100%;
+  height: auto;
 }
 
 .box2{
@@ -180,14 +181,20 @@ header a:hover{
 }
 #movie1{
   width: 75%;
+  max-width: 100%;
+  height: auto;
 }
 
 #movie2{
   width: 75%;
+  max-width: 100%;
+  height: auto;
 }
 
 #movie3{
   width: 75%;
+  max-width: 100%;
+  height: auto;
 }
 
 footer{
@@ -197,16 +204,8 @@ footer{
   text-align: center;
 }
 
-/* Services */
-ul#services li{
-  color: white;
-  list-style: none;
-  padding: 20px;
-  border: rgb(202, 67, 202) solid 1px;
-  margin-bottom: 10px;
-  background: #000000;
-}
-
-ul#services h2{
-  border-bottom: rgb(202, 67, 202) solid 2px;
+@media only screen and (max-width: 620px) {
+  body {
+    width: 100%;
+  }
 }
