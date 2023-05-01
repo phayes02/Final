@@ -130,7 +130,7 @@ header a:hover{
   margin-right: 240px;
 }
 
-#trilogies {
+.trilogies {
   text-align: center;
   font-size: 30px;
 }
@@ -139,25 +139,11 @@ header a:hover{
   margin-top: 20px;
 }
 
-#movie1{
+.movie1, .movie2, .movie3 {
   width: 75%;
-  max-width: 100%;
-  height: auto;
 }
 
-#movie2{
-  width: 75%;
-  max-width: 100%;
-  height: auto;
-}
-
-#movie3{
-  width: 75%;
-  max-width: 100%;
-  height: auto;
-}
-
-#movie4{
+.movie4{
   width: 50%;
 }
 

@@ -77,7 +77,7 @@ header a:hover{
   font-size: 25px;
 }
   
-#showcase_title {
+.showcase_title {
   text-align: center;
   font-size: 75px;
 }
@@ -112,13 +112,13 @@ header a:hover{
   margin-top: 20px;
 }
 
-#movie1, #movie2, #movie3{
+.movie1, .movie2, .movie3{
   width: 75%;
   max-width: 100%;
   height: auto;
 }
 
-#movie4 {
+.movie4 {
   width: 50%;
 }
 
