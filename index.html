@@ -60,36 +60,43 @@
       </div>
     </div>
   </section>
-    
-  <footer>
-    <!-- This is a switch statement. Source: W3 Schools-->
-    <p id="date"></p>
-      <script>
-        let day;
-        switch (new Date().getDay()) {
-          case 0:
-            day = "Sunday";
-            break;
-          case 1:
-            day = "Monday";
-            break;
-          case 2:
-            day = "Tuesday";
-            break;
-          case 3:
-            day = "Wednesday";
-            break;
-          case 4:
-            day = "Thursday";
-            break;
-          case 5:
-            day = "Friday";
-            break;
-          case 6:
+  
+  <section class="time">
+    <div class="container">
+      <h1> Want to know what your day is in Star Wars time?</h1>
+      <h3 id="date" style="text-align: center;"></h3>
+        <!-- Day Source: https://starwars.fandom.com/wiki/Galactic_Standard_Calendar -->
+        <!-- This is a switch statement. Source: W3 Schools-->
+        <script>
+          let day;
+          switch (new Date().getDay()) {
+            case 0:
+              day = "Primeday";
+              break;
+            case 1:
+              day = "Centaxday";
+              break;
+            case 2:
+              day = "Taungsday";
+              break;
+            case 3:
+              day = "Zhellday";
+              break;
+            case 4:
+              day = "Thursday";
+              break;
+            case 5:
+              day = "Benduday";
+              break;
+            case 6:
             day = "Saturday";
-        }
-        document.getElementById("date").innerHTML = "Today is " + day;
-      </script>
+         }
+          document.getElementById("date").innerHTML = "Today is " + day;
+        </script>
+      <p style="text-align: center;">Note: This time frame is based off Coruscant, and their standard year is 368 days with 5 days a week. Thursday and Saturday do not exist, but they have been mentioned by some locals.</p>
+    </div>
+  </section>
+  <footer>
       <p>A Star Wars Site, Copyright &copy; 2023 - <!-- Need to get validation-->
-    </footer>
+  </footer>
 </body>

@@ -18,23 +18,7 @@ html, body {
     padding-bottom: 20px;
   }
   
-  h1 {
-    color: white;
-  }
-  
-  h2 {
-    color: white;
-  }
-  
-  h3 {
-    color: white;
-  }
-  
-  label {
-    color: white;
-  }
-  
-  ol {
+  h1, h2, h3, label, ol, a  {
     color: white;
   }
   
@@ -45,10 +29,6 @@ html, body {
   ul{
     margin: 0;
     padding: 0;
-  }
-  
-  a {
-    color: white;
   }
   
   header{
@@ -127,6 +107,7 @@ html, body {
   #info h1{
     text-align: center;
   }
+  
 
   footer{
     padding: 20px;
