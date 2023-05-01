@@ -112,49 +112,14 @@ header a:hover{
   margin-top: 20px;
 }
 
-.box1{
-  float: left;
-  text-align:center;
-  width: 30%;
-  padding: 10px;
-}
-
-.box2{
-  float: left;
-  text-align:center;
-  width: 30%;
-  padding: 10px;
-  padding-left: 30px;
-}
-
-.box3{
-  float: left;
-  text-align:center;
-  width: 30%;
-  padding: 10px;
-  padding-left: 25px;
-}
-
-.box4{
-  float: left;
-  text-align:center;
-  width: 30%;
-  padding: 10px;
-  padding-left: 180px;
-}
-
-.box5{
-  float: left;
-  text-align:center;
-  width: 30%;
-  padding: 10px;
-  padding-left: 55px;
-}
-  
 #movie1, #movie2, #movie3{
-  width: 80%;
+  width: 75%;
   max-width: 100%;
   height: auto;
+}
+
+#movie4 {
+  width: 50%;
 }
 
 footer{
@@ -162,4 +127,46 @@ footer{
   color: #ffffff;
   background-color:#000000;
   text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left {
+  padding: 10px;
+  flex: 30%;
+}
+
+.flex-item-middle {
+  padding: 10px;
+  flex: 30%;
+}
+
+.flex-item-right {
+  padding: 10px;
+  flex: 30%;
+}
+
+.flex-item-left2 {
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right2 {
+  padding: 10px;
+  flex: 50%;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
 }

@@ -3,6 +3,7 @@
     <title>A Star Wars Site</title>
     <!-- <link rel="stylesheet" href="./css/reset.css" media="screen"> -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- jQuery -->
     <script src="./js/jquery-3.6.0.min.js"></script>
 </head>
 <body>
@@ -10,7 +11,7 @@
   <header>
     <div class="container">
       <div id="branding">
-        <h1>A Star Wars Site</h1>
+        <h1 style="padding-bottom: 30px;"><span class="highlight">A Star Wars Site</span></h1>
       </div>
       <nav>
         <ul>
@@ -39,23 +40,23 @@
 
   <!--This is a section that upcoming projects-->
   <section id="boxes">
-    <div class="container">
-      <div class="box1">
-        <img id="movie1" src="./images/jedi_survivor.jpg">
-        <h3>Star Wars Jedi: Survivor</h3>
-        <p>April 28, 2023</p>
+    <div class="flex-container">
+      <div class="flex-item-left">
+        <img id="movie1" src="./images/jedi_survivor.jpg" style="padding-top: 50px;">
+        <h3 style="font-size: 20px; padding-top: 40px;">Star Wars Jedi: Survivor</h3>
+        <p style="font-size: 20px;">*OUT NOW*</p>
       </div>
     
-      <div class="box2">
+      <div class="flex-item-middle">
         <img id="movie2" src="./images/visions2.jpg">
-        <h3>Star Wars: Visions Season 2</h3>
-        <p>May 4, 2023</p>
+        <h3 style="font-size: 20px;">Star Wars: Visions Season 2</h3>
+        <p style="font-size: 20px;">May 4, 2023</p>
       </div>
     
-      <div class="box3">
+      <div class="flex-item-right">
         <img id="movie3" src="./images/ahsoka.jpg">
-        <h3>Ahsoka (TV Series)</h3>
-        <p>August 2023</p>
+        <h3 style="font-size: 20px;">Ahsoka (TV Series)</h3>
+        <p style="font-size: 20px;">August 2023</p>
       </div>
     </div>
   </section>
