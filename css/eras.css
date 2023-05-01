@@ -108,7 +108,7 @@ header{
 }
 
 #dawn_pic{
-    width: 50%;
+  width: 25%;
   }
 
 #DawnDscr {
@@ -142,7 +142,7 @@ header{
 }
 
 #old_pic {
-    width: 50%;
+  width: 25%;
 }
 
 /* This is tab for the High Republic */
@@ -170,7 +170,7 @@ header{
 }
 
 #high_pic {
-    width: 50%;
+  width: 25%;
 }
 
 /* This is tab for the Fall of the Jedi */
@@ -198,7 +198,7 @@ header{
 }
 
 #fall_pic {
-    width: 50%;
+  width: 25%;
 }
 
 /* This is tab for the Reign of the Empire */
@@ -226,7 +226,7 @@ header{
 }
 
 #empire_pic {
-    width: 50%;
+  width: 25%;
 }
 
 /* This is tab for the Age of the Rebellion */
@@ -254,7 +254,7 @@ header{
 }
 
 #rebellion_pic {
-    width: 50%;
+  width: 25%;
 }
 
 /* This is tab for the New Republic */
@@ -282,7 +282,7 @@ header{
 }
 
 #new_republic_pic {
-    width: 50%;
+  width: 25%;
 }
 
 /* This is tab for the Rise of the First Order */
@@ -310,7 +310,7 @@ header{
 }
 
 #order_pic {
-    width: 50%;
+    width: 25%;
 }
 
 /* This is tab for the New Jedi Order*/
@@ -338,7 +338,7 @@ header{
 }
 
 #new_jedi_pic {
-    width: 50%;
+  width: 25%;
 }
 
 /* Buttons for the information */
@@ -641,21 +641,29 @@ header{
 }
 
 .btn-group {
-
-padding-top: 10px;
-padding-left: 100px;
 padding-bottom: 20px;
 background-color:#000000;
-border-bottom: #FFE81F 3px solid;
 
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  background-color: #000000;
+  padding-top: 40px;
+}
+
+.flex-item {
+  flex: 30%;
+}
 
 footer{
     padding: 20px;
     color: #ffffff;
     background-color:#000000;
     text-align: center;
+    border-top: #ffffff solid 2px;
   }
 
   @media(max-width: 768px){
@@ -678,18 +686,5 @@ footer{
   
     #showcase h1{
       margin-top: 40px;
-    }
-  
-    #newsletter button {
-      display: block;
-      width: 100%;
-    }
-  
-    #newsletter form input[type="email"],
-    .contact input,
-    .contact textarea,
-    .contact label{
-      width: 100%;
-      margin-bottom: 5px;
     }
   }

@@ -21,15 +21,20 @@
                 <li class="current"><a href="eras.html">Eras</a></li>
                 <li><a href="movies.html">Movies</a></li>
                 <li><a href="shows.html">TV Series</a></li>
+                <li><a href="timeline.html">Media Timeline</a></li>
               </ul>
             </nav>
           </div>
     </header>
 
-    <section id="character_main">
+    <section id="era_main">
         <section id="info">
             <div class="container">
                 <h1 id="eraInfo">The New Timeline<h1>
+                <!-- A reset button to go back to the original page-->
+                <button class="BUTTON_RESET">
+                    <a href="eras.html"> RESET</a>
+                </button>
             </div>
         </section>
 
@@ -103,22 +108,25 @@
                     <img id="new_jedi_pic" src="./images/new_jedi.jpg">
                     <p id="New_JediDscr">Currently, the defeat of the First Order is the last event on the timeline, but that will soon change. An upcoming film featuring Daisy Ridley's Rey was among the recent announcements. Set fifteen years after The Rise of Skywalker, this new film will introduce a brand-new era entitled New Jedi Order. After the recent destruction, the Jedi Order is still in turmoil as Rey attempts to rebuild it. However, nothing else is known about this era for the time being.</p>
                 </div>
-
             </div>
         </section>
-
-        <div class="btn-group">
-            <button data-switch="#dawn" class="BUTTON_1"></button>
-            <button data-switch="#old" class="BUTTON_2"></button>
-            <button data-switch="#high" class="BUTTON_3"></button>
-            <button data-switch="#fall" class="BUTTON_4"></button>
-            <button data-switch="#empire" class="BUTTON_5"></button>
-            <button data-switch="#rebellion" class="BUTTON_6"></button>
-            <button data-switch="#new_republic" class="BUTTON_7"></button>
-            <button data-switch="#order" class="BUTTON_8"></button>
-            <button data-switch="#new_jedi" class="BUTTON_9"></button>
+        
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="btn-group">
+                    <button data-switch="#dawn" class="BUTTON_1"></button>
+                    <button data-switch="#old" class="BUTTON_2"></button>
+                    <button data-switch="#high" class="BUTTON_3"></button>
+                    <button data-switch="#fall" class="BUTTON_4"></button>
+                    <button data-switch="#empire" class="BUTTON_5"></button>
+                    <button data-switch="#rebellion" class="BUTTON_6"></button>
+                    <button data-switch="#new_republic" class="BUTTON_7"></button>
+                    <button data-switch="#order" class="BUTTON_8"></button>
+                    <button data-switch="#new_jedi" class="BUTTON_9"></button>
+                </div>
+            </div>
         </div>
-    
+
     </section>
 
     <!-- Copyright Section-->
