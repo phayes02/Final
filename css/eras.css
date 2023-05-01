@@ -89,6 +89,12 @@ header{
     text-align: center;
   }
 
+#warning {
+  background-color: #000000;
+  text-align: center;
+  color: #ffffff;
+}
+
 /* This is tab for the Dawn of the Jedi */
 #dawn{
   padding: 50px;

@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <title>A Star Wars Site</title>
     <!-- <link rel="stylesheet" href="./css/reset.css" media="screen"> -->
@@ -35,7 +36,7 @@
   <!--This is the purpose of the webpage-->
   <section id="info">
     <div class="container">
-      <h1>This site is here to talk about George Lucas' Star Wars Franchise. Our objective is to provide you information about the films and tv shows. Here are some upcoming Star Wars projects!</h1>
+      <h2>This site is here to talk about George Lucas' Star Wars Franchise. Our objective is to provide you information about the films and tv shows. Here are some upcoming Star Wars projects!</h2>
     </div>
   </section>
 
@@ -43,20 +44,20 @@
   <section id="boxes">
     <div class="flex-container">
       <div class="flex-item-left">
-        <img id="movie1" src="./images/jedi_survivor.jpg" style="padding-top: 50px;">
+        <img id="movie1" src="./images/jedi_survivor.jpg" alt="Jedi Survivor" style="padding-top: 50px;">
         <h3 style="font-size: 20px; padding-top: 40px;">Star Wars Jedi: Survivor</h3>
         <p style="font-size: 20px;">*OUT NOW*</p>
       </div>
     
       <div class="flex-item-middle">
         <!-- Photo: https://www.starwars.com/series/star-wars-visions-->
-        <img id="movie2" src="./images/visions2.jpg">
+        <img id="movie2" src="./images/visions2.jpg" alt="Visions Season 2">
         <h3 style="font-size: 20px;">Star Wars: Visions Season 2</h3>
         <p style="font-size: 20px;">May 4, 2023</p>
       </div>
     
       <div class="flex-item-right">
-        <img id="movie3" src="./images/ahsoka.jpg">
+        <img id="movie3" src="./images/ahsoka.jpg" alt="Ahsoka">
         <h3 style="font-size: 20px;">Ahsoka (TV Series)</h3>
         <p style="font-size: 20px;">August 2023</p>
       </div>
@@ -65,8 +66,8 @@
   
   <section class="time">
     <div class="container">
-      <h1> Want to know what your day is in Star Wars time?</h1>
-      <h3 id="date" style="text-align: center;"></h3>
+      <h2> Want to know what your day is in Star Wars time?</h2>
+      <h3 id="date" style="text-align: center;">
         <!-- Day Source: https://starwars.fandom.com/wiki/Galactic_Standard_Calendar -->
         <!-- This is a switch statement. Source: W3 Schools-->
         <script>
@@ -95,6 +96,7 @@
          }
           document.getElementById("date").innerHTML = "Today is " + day;
         </script>
+      </h3>
       <p style="text-align: center;">Note: This time frame is based off Coruscant, and their standard year is 368 days with 5 days a week. Thursday and Saturday do not exist, but they have been mentioned by some locals.</p>
     </div>
   </section>
@@ -102,3 +104,4 @@
       <p>A Star Wars Site, Copyright &copy; 2023 - <!-- Need to get validation-->
   </footer>
 </body>
+</html>
