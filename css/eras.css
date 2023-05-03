@@ -64,6 +64,7 @@ header{
 
 #showcase {
     min-height: 700px;
+    /* Source https://wegotthiscovered.com/movies/new-star-wars-eras-and-updated-timeline-explained/ */
     background:url('../images/eras.jpg') no-repeat center;
     background-size: contain;
     background-color: black;
