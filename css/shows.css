@@ -50,11 +50,11 @@ header li{
   padding: 0 20px 0 20px;
 }
   
-header #branding{
+header #navigation{
   float: left;
 }
   
-header #branding h1{
+header #navigation h1{
   margin: 0;
 }
   

@@ -8,6 +8,7 @@
     <!--A function to ensure your name is on the form-->
     <!--x is the variable-->
     <script>
+      /* Source: https://www.w3schools.com/js/js_validation.asp */
       function validateForm() {
         let x = document.forms["myForm"]["name"].value;
         if (x == "") {
@@ -21,7 +22,7 @@
     <!--This is the header, having the title of the page and links-->
     <header>
         <div class="container">
-            <div id="branding">
+            <div id="navigation">
               <h1><span class="highlight">A Star Wars Site</span></h1>
             </div>
             <nav>
@@ -89,6 +90,7 @@
             </ul>
             <!--If-then-else used to display a different message depending on the time-->
             <script>
+              /* Source: https://www.w3schools.com/js/tryit.asp?filename=tryjs_elseif */
               const time = new Date().getHours();
               let greeting;
               if (time < 10) {
@@ -100,9 +102,10 @@
               }
               document.getElementById("title").innerHTML = greeting;
             </script>
-            <!--Here is a for-loop and an array to list the different content in the franchise-->
+            <!--Here is a for-loop to list the different content in the franchise-->
             <script>
               /* An array containing the content */
+              /* Source: https://www.w3schools.com/js/js_loop_for.asp */
               const content1 = ["The Skywalker Saga (Episodes I-IX)", "Rogue One", "Solo"];
               
               let text1 = "";
@@ -113,6 +116,7 @@
               document.getElementById("movies").innerHTML = text1;
             </script>
             <!--While loop for tv shows-->
+            <!-- Source: https://www.w3schools.com/js/js_loop_while.asp -->
             <script>
               const content2 = ["Star Wars: The Clone Wars", "Star Wars: Rebels", "Star Wars: Resistence", "Visions", "The Mandalorian", "The Book of Boba Fett", "Obi-Wan Kenobi", "Tales of the Jedi", "Bad Batch", "Andor"];
               
